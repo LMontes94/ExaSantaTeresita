@@ -9,3 +9,11 @@
 .list-group-item {
   color: aliceblue;
 }
+
+.titulo{
+    padding-top: 20px;
+}
+
+.cards{
+  margin-top: 50px;
+}

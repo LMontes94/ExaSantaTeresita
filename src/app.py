@@ -8,10 +8,13 @@ def home():
     return render_template('/sitio/home.html')
 
 
-@app.route('/about')
+@app.route('/rules')
 def about():
-    return render_template('about.html')
+    return render_template('/sitio/rules.html')
 
+@app.route('/info')
+def info():
+    return render_template('/sitio/info.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
