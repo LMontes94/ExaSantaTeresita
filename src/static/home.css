@@ -10,10 +10,15 @@
   color: aliceblue;
 }
 
-.titulo{
-    padding-top: 20px;
+.titulo {
+  padding-top: 20px;
 }
 
-.cards{
+.cards,
+.copy {
   margin-top: 50px;
+}
+
+.copy {
+  text-align: center;
 }
